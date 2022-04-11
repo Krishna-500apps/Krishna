@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>the java script<i>this</i>keyword</h1>
+        <p>mantra technlogies<b>this</b>refers to the<b>person</b>object.</p>
+        <p>because<b>fullname</b> is a method of the person object.</p>
+        <p id="demo"></p>
+        <script>
+            const person={
+                firstName:"malli",
+                lastName :"krishna",
+                      id :1178,
+                      fullName:function(){
+                          return this.firstName+"" +this.lastName;
+                      }
+            }
+            document.getElementById("demo").innerHTML=person.fullName();
+        </script>
+    </body>
+</html>
