@@ -9,18 +9,20 @@
 
 <script>
 export default {
+    name:"SearchFunction",
     data(){
         return{
-           // post:"",
-           words:"gi",
-            array:["agile","crm","mantra","technologies","500apps","infinity"]
-
-
-           
+            array:["agile","crm","mantra","technologies","500apps","infinity"],
+             res:"",
         }
     },
     methods:{
-        fun1(){
+        fun1(){ 
+            var res=this.array.map(j=>{
+                return j.name
+            })
+            console.log(row);
+            
             
             
 
