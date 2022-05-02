@@ -28,7 +28,7 @@ export default {
     methods:{
         f1(){
             let Employeenames=this.Employees.filter((Employees)=>{
-                return Employees.name!="latha";
+                return Employees.name=="latha";
              });
                console.log(Employeenames);
              // let ages=this.ages.filter((ages)=>{
